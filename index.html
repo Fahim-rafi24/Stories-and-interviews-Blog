@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- title area -->
     <title>Stories and interviews Blog</title>
+    
+    
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    
+    
+    <!-- daisy-ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- flow-bit cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet"/>
+    
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+    
+    <!-- intigrated css -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+    
+    
+    
 </head>
 <body>
     
+    <header>
+
+        <!-- top section -->
+        <div class="text-center pt-20">
+            <small class="text-[#7F56D9] font-bold">Our blog</small>
+            <h1 class="text-3xl md:text-5xl font-extrabold mt-4 mb-5">Stories and interviews Blog</h1>
+            <p class="text-[#667085] text-[20px]">Subscribe to learn about new product features, the latest in technology,<br> solutions, and updates.</p>
+            <div class="mt-5">
+                <input
+                class="w-[336px]"
+                type="email" placeholder="Enter your email" name="" id="">
+                <button class="ml-0 md:ml-3 mt-5 md:mt-0 px-4 py-2 rounded-lg bg-[#7F56D9] hover:bg-red-600  text-white border">Subscribe</button>
+            </div>
+            <div class="mx-auto mt-3 md:w-[24%] md:text-start">
+                <small class="">We care about your data in our <u class="underline-offset-4">privacy policy</u> </small>
+            </div>
+        </div>
+        
+        <!-- recent-blog area -->
+        <h6 class="text-xl md:text-2xl font-semibold w-[98%] md:w-[90%] mx-auto mt-20 md:mt-40 mb-5 md:mb-10">Recent blog posts</h6>
+        <section class="md:flex w-[95%] md:w-[90%] mx-auto">
+
+            <div class="w-[100%] md:w-[50%]">
+                <img src="media/Image-1.png" alt=""
+                class="w-[100%] h-[200px] xl:h-[266px] mb-5 border">
+                <small class="text-[#6941C6] text-[14px] font-semibold">Olivia Rhye • 20 Jan 2022</small>
+                <div class="flex justify-between">
+                    <h4 class="text-2xl font-bold my-3">UX review presentations</h4>
+                    <div class="array mt-3"><img src="media/array.svg" alt=""></div>
+                </div>
+                <p class="text-gray-500 mb-3 w-[90%]">How do you create compelling presentations that wow your colleagues and<br>impress your managers?</p>
+                <span class="flex gap-5">
+                    <p class="text-[#6941C6] font-semibold px-2 py-[3px] rounded-lg bg-[#6941C61A]">Design</p>
+                    <p class="text-[#3538CD] font-semibold px-2 py-[3px] rounded-lg bg-[#3538CD1A]">Research</p>
+                    <p class="text-[#C11574] font-semibold px-2 py-[3px] rounded-lg bg-[#C115741A]">Presentation</p>
+                </span>
+            </div>
+
+            <div class="w-[100%] md:w-[50%]"> 
+                <div class="w-[100%]"></div>
+                <div class="w-[100%]"></div>
+            </div>
+        </section>
+
+    </header>
+
+    <footer class="mt-96"></footer>
 </body>
 </html>
